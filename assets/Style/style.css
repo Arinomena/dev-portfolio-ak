@@ -77,7 +77,7 @@ body {
   position    : fixed;
   transform   : translate(-50%, -50%);
   font-family : var(--fh);
-  font-size   : 1rem;
+  font-size   : 1.12rem;
   font-style  : italic;
   color       : var(--coral);
   opacity     : 0;
@@ -106,7 +106,7 @@ body {
 .lb {
   padding        : 0.32rem 0.85rem;
   font-family    : var(--fc);
-  font-size      : 0.6rem;
+  font-size   : 0.93rem;
   letter-spacing : 0.14em;
   background     : transparent;
   color          : var(--muted2);
@@ -148,7 +148,7 @@ nav.scrolled {
 .logo {
   font-family    : var(--fh);
   font-style     : italic;
-  font-size      : 1.3rem;
+  font-size   : 1.3rem;
   color          : var(--coral);
   text-decoration: none;
   letter-spacing : 0.02em;
@@ -162,7 +162,7 @@ nav.scrolled {
 
 .nlinks a {
   font-family    : var(--fc);
-  font-size      : 0.65rem;
+  font-size   : 0.83rem;
   letter-spacing : 0.14em;
   text-transform : uppercase;
   color          : var(--muted2);
@@ -219,7 +219,7 @@ nav.scrolled {
 
 .mnav a {
   font-family    : var(--fh);
-  font-size      : 2.2rem;
+  font-size   : 2.2rem;
   font-style     : italic;
   color          : var(--text);
   text-decoration: none;
@@ -271,7 +271,7 @@ nav.scrolled {
   position   : relative;
   z-index    : 3;
   width      : 100%;
-  padding    : 9rem 2.5rem 280px;
+  padding    : 9rem 3rem 280px;
   max-width  : 1200px;
   margin     : 0 auto;
 }
@@ -304,7 +304,7 @@ nav.scrolled {
   align-items    : center;
   gap            : 0.5rem;
   font-family    : var(--fc);
-  font-size      : 0.6rem;
+  font-size   : 1.05rem;
   letter-spacing : 0.16em;
   text-transform : uppercase;
   color          : var(--coral);
@@ -331,7 +331,7 @@ nav.scrolled {
 .hname {
   font-family    : var(--fh);
   font-style     : italic;
-  font-size      : clamp(3rem, 7.5vw, 6.5rem);
+  font-size      : clamp(3.5rem, 8.5vw, 7.5rem);
   line-height    : 0.92;
   letter-spacing : -0.02em;
   margin-bottom  : 1.4rem;
@@ -362,7 +362,7 @@ nav.scrolled {
 }
 
 .hdesc {
-  font-size     : 0.92rem;
+  font-size   : 1.35rem;
   line-height   : 1.85;
   color         : var(--muted2);
   max-width     : 480px;
@@ -381,9 +381,9 @@ nav.scrolled {
   display        : inline-flex;
   align-items    : center;
   gap            : 0.45rem;
-  padding        : 0.75rem 1.7rem;
+  padding        : 0.85rem 2rem;
   font-family    : var(--fc);
-  font-size      : 0.65rem;
+  font-size   : 1.07rem;
   letter-spacing : 0.1em;
   text-transform : uppercase;
   text-decoration: none;
@@ -432,7 +432,7 @@ nav.scrolled {
   gap            : 0.85rem;
   z-index        : 4;
   font-family    : var(--fc);
-  font-size      : 0.56rem;
+  font-size   : 0.89rem;
   letter-spacing : 0.16em;
   text-transform : uppercase;
   color          : var(--muted);
@@ -472,16 +472,16 @@ nav.scrolled {
 /* ── SECTION SYSTEM ──────────────────────────────────────── */
 
 .sec {
-  padding  : 6rem 0;
+  padding  : 8rem 0;
   position : relative;
 }
 
 .sec-alt { background: var(--s1); }
 
 .sec-inner {
-  max-width : 1200px;
+  max-width : 1280px;
   margin    : 0 auto;
-  padding   : 0 2.5rem;
+  padding   : 0 3.5rem;
 }
 
 .sl {
@@ -489,7 +489,7 @@ nav.scrolled {
   align-items    : center;
   gap            : 0.75rem;
   font-family    : var(--fc);
-  font-size      : 0.58rem;
+  font-size   : 1.1rem;
   letter-spacing : 0.22em;
   text-transform : uppercase;
   color          : var(--coral);
@@ -526,7 +526,7 @@ nav.scrolled {
 .st {
   font-family    : var(--fh);
   font-style     : italic;
-  font-size      : clamp(2rem, 4.5vw, 3.2rem);
+  font-size      : clamp(2.8rem, 5.5vw, 4.2rem);
   line-height    : 1;
   letter-spacing : -0.02em;
   color          : var(--text);
@@ -534,7 +534,7 @@ nav.scrolled {
 
 .ss {
   font-family : var(--fb);
-  font-size   : 0.88rem;
+  font-size   : 1.12rem;
   color       : var(--muted2);
   max-width   : 480px;
   line-height : 1.78;
@@ -563,7 +563,7 @@ nav.scrolled {
 }
 
 .ap {
-  font-size     : 0.88rem;
+  font-size   : 1.15rem;
   line-height   : 1.92;
   color         : var(--muted2);
   margin-bottom : 1rem;
@@ -592,14 +592,14 @@ nav.scrolled {
 .sn {
   font-family : var(--fh);
   font-style  : italic;
-  font-size   : 2.8rem;
+  font-size   : 3.8rem;
   color       : var(--coral);
   line-height : 1;
 }
 
 .sl2 {
   font-family    : var(--fc);
-  font-size      : 0.58rem;
+  font-size   : 1.1rem;
   letter-spacing : 0.1em;
   color          : var(--muted2);
   margin-top     : 0.28rem;
@@ -636,12 +636,12 @@ nav.scrolled {
 .edu-s {
   font-family : var(--fb);
   font-weight : 700;
-  font-size   : 0.9rem;
+  font-size   : 1.12rem;
   color       : var(--text);
 }
 
 .edu-d {
-  font-size   : 0.76rem;
+  font-size   : 1.12rem;
   color       : var(--muted2);
   margin-top  : 0.18rem;
   line-height : 1.5;
@@ -649,7 +649,7 @@ nav.scrolled {
 
 .edu-y {
   font-family    : var(--fc);
-  font-size      : 0.58rem;
+  font-size   : 0.99rem;
   color          : var(--coral);
   letter-spacing : 0.1em;
   margin-top     : 0.22rem;
@@ -667,7 +667,7 @@ nav.scrolled {
 
 .sk-cat-name {
   font-family    : var(--fc);
-  font-size      : 0.58rem;
+  font-size   : 1.1rem;
   letter-spacing : 0.2em;
   text-transform : uppercase;
   color          : var(--muted);
@@ -691,10 +691,10 @@ nav.scrolled {
 }
 
 .pill {
-  padding        : 0.32rem 0.78rem;
+  padding        : 0.42rem 0.95rem;
   border         : 1px solid var(--border);
   font-family    : var(--fb);
-  font-size      : 0.76rem;
+  font-size   : 1.14rem;
   font-weight    : 500;
   color          : var(--muted2);
   transition     : all 0.2s;
@@ -747,7 +747,7 @@ nav.scrolled {
 
 .ep {
   font-family    : var(--fc);
-  font-size      : 0.58rem;
+  font-size   : 1.1rem;
   letter-spacing : 0.16em;
   text-transform : uppercase;
   color          : var(--coral);
@@ -757,13 +757,13 @@ nav.scrolled {
 .er {
   font-family   : var(--fb);
   font-weight   : 700;
-  font-size     : 1.05rem;
+  font-size   : 1.35rem;
   color         : var(--text);
   margin-bottom : 0.15rem;
 }
 
 .ec {
-  font-size     : 0.8rem;
+  font-size   : 1.2rem;
   color         : var(--muted2);
   margin-bottom : 0.8rem;
 }
@@ -776,7 +776,7 @@ nav.scrolled {
 }
 
 .etasks li {
-  font-size    : 0.82rem;
+  font-size   : 1.2rem;
   color        : var(--muted2);
   line-height  : 1.65;
   padding-left : 0.95rem;
@@ -788,7 +788,7 @@ nav.scrolled {
   position : absolute;
   left     : 0;
   color    : var(--coral);
-  font-size: 0.68rem;
+  font-size: 0.82rem;
 }
 
 .etags {
@@ -800,7 +800,7 @@ nav.scrolled {
 
 .etag {
   font-family    : var(--fc);
-  font-size      : 0.58rem;
+  font-size   : 0.99rem;
   letter-spacing : 0.07em;
   padding        : 0.18rem 0.55rem;
   background     : var(--coral-dim);
@@ -813,7 +813,7 @@ nav.scrolled {
   align-items    : center;
   gap            : 0.3rem;
   font-family    : var(--fc);
-  font-size      : 0.54rem;
+  font-size   : 0.97rem;
   letter-spacing : 0.1em;
   text-transform : uppercase;
   background     : var(--coral-dim);
@@ -837,7 +837,7 @@ nav.scrolled {
 /* ── PROJECTS — HORIZONTAL SCROLL ────────────────────────── */
 
 .proj-header {
-  max-width : 1200px;
+  max-width : 1280px;
   margin    : 0 auto;
   padding   : 0 2.5rem 2.5rem;
 }
@@ -866,7 +866,7 @@ nav.scrolled {
   margin         : 0.75rem auto 0;
   padding        : 0 2.5rem;
   font-family    : var(--fc);
-  font-size      : 0.56rem;
+  font-size   : 0.89rem;
   letter-spacing : 0.12em;
   color          : var(--muted);
   display        : flex;
@@ -876,7 +876,7 @@ nav.scrolled {
 
 /* Project card */
 .pcard {
-  width      : 500px;
+  width      : 620px;
   flex-shrink: 0;
   background : var(--s1);
   display    : flex;
@@ -923,7 +923,7 @@ nav.scrolled {
   gap            : 0.7rem;
   color          : var(--muted);
   font-family    : var(--fc);
-  font-size      : 0.58rem;
+  font-size   : 0.91rem;
   letter-spacing : 0.12em;
   text-transform : uppercase;
   background     : linear-gradient(135deg, var(--s2) 0%, var(--s3) 100%);
@@ -944,7 +944,7 @@ nav.scrolled {
   z-index            : 1;
   font-family        : var(--fh);
   font-style         : italic;
-  font-size          : 8rem;
+  font-size   : 8.0rem;
   line-height        : 1;
   color              : transparent;
   -webkit-text-stroke: 1px rgba(255, 71, 87, 0.2);
@@ -964,7 +964,7 @@ nav.scrolled {
 
 .pcard-feat {
   font-family    : var(--fc);
-  font-size      : 0.54rem;
+  font-size   : 0.87rem;
   letter-spacing : 0.1em;
   text-transform : uppercase;
   background     : var(--coral);
@@ -982,7 +982,7 @@ nav.scrolled {
 
 .pcard-type {
   font-family    : var(--fc);
-  font-size      : 0.56rem;
+  font-size   : 0.99rem;
   letter-spacing : 0.14em;
   text-transform : uppercase;
   color          : var(--coral);
@@ -992,14 +992,14 @@ nav.scrolled {
 .pcard-name {
   font-family   : var(--fh);
   font-style    : italic;
-  font-size     : 1.7rem;
+  font-size   : 2.2rem;
   color         : var(--text);
   line-height   : 1.05;
   margin-bottom : 0.8rem;
 }
 
 .pcard-desc {
-  font-size     : 0.8rem;
+  font-size   : 1.2rem;
   color         : var(--muted2);
   line-height   : 1.75;
   flex          : 1;
@@ -1015,7 +1015,7 @@ nav.scrolled {
 
 .tc {
   font-family : var(--fc);
-  font-size   : 0.56rem;
+  font-size   : 0.99rem;
   padding     : 0.14rem 0.45rem;
   background  : var(--s2);
   color       : var(--muted2);
@@ -1028,7 +1028,7 @@ nav.scrolled {
   gap            : 0.5rem;
   margin-top     : auto;
   font-family    : var(--fc);
-  font-size      : 0.6rem;
+  font-size   : 1.14rem;
   letter-spacing : 0.12em;
   text-transform : uppercase;
   color          : var(--coral);
@@ -1088,7 +1088,7 @@ nav.scrolled {
 
 .popup-topbar-title {
   font-family    : var(--fc);
-  font-size      : 0.58rem;
+  font-size   : 0.91rem;
   letter-spacing : 0.16em;
   text-transform : uppercase;
   color          : var(--muted);
@@ -1096,7 +1096,7 @@ nav.scrolled {
 
 .popup-close-btn {
   font-family    : var(--fc);
-  font-size      : 0.6rem;
+  font-size   : 0.93rem;
   letter-spacing : 0.12em;
   text-transform : uppercase;
   background     : transparent;
@@ -1136,7 +1136,7 @@ nav.scrolled {
   gap            : 0.75rem;
   background     : linear-gradient(135deg, var(--s2), var(--s3));
   font-family    : var(--fc);
-  font-size      : 0.62rem;
+  font-size   : 0.8rem;
   letter-spacing : 0.12em;
   text-transform : uppercase;
   color          : var(--muted);
@@ -1180,7 +1180,7 @@ nav.scrolled {
   cursor          : pointer;
   transition      : all 0.2s;
   backdrop-filter : blur(6px);
-  font-size       : 1rem;
+  font-size   : 1.12rem;
 }
 
 .gal-btn:hover {
@@ -1225,7 +1225,7 @@ nav.scrolled {
 
 .popup-type {
   font-family    : var(--fc);
-  font-size      : 0.56rem;
+  font-size   : 0.99rem;
   letter-spacing : 0.14em;
   text-transform : uppercase;
   color          : var(--coral);
@@ -1233,7 +1233,7 @@ nav.scrolled {
 
 .popup-feat {
   font-family    : var(--fc);
-  font-size      : 0.52rem;
+  font-size   : 0.85rem;
   letter-spacing : 0.1em;
   text-transform : uppercase;
   background     : var(--coral);
@@ -1244,14 +1244,14 @@ nav.scrolled {
 .popup-name {
   font-family    : var(--fh);
   font-style     : italic;
-  font-size      : clamp(1.6rem, 4vw, 2.5rem);
+  font-size      : clamp(2rem, 5vw, 3.2rem);
   color          : var(--text);
   line-height    : 1.05;
   margin-bottom  : 1.3rem;
 }
 
 .popup-desc {
-  font-size     : 0.88rem;
+  font-size   : 1.12rem;
   color         : var(--muted2);
   line-height   : 1.85;
   margin-bottom : 1.5rem;
@@ -1259,7 +1259,7 @@ nav.scrolled {
 
 .popup-stitle {
   font-family    : var(--fc);
-  font-size      : 0.56rem;
+  font-size   : 0.99rem;
   letter-spacing : 0.2em;
   text-transform : uppercase;
   color          : var(--muted);
@@ -1292,7 +1292,7 @@ nav.scrolled {
 
 .pl {
   font-family    : var(--fc);
-  font-size      : 0.62rem;
+  font-size   : 0.8rem;
   letter-spacing : 0.1em;
   text-transform : uppercase;
   color          : var(--muted2);
@@ -1311,7 +1311,7 @@ nav.scrolled {
   background  : var(--s2);
   border-left : 2px solid var(--coral);
   font-family : var(--fc);
-  font-size   : 0.64rem;
+  font-size   : 0.82rem;
   color       : var(--muted);
   line-height : 1.78;
 }
@@ -1374,20 +1374,20 @@ nav.scrolled {
   align-items     : center;
   justify-content : center;
   background      : var(--s2);
-  font-size       : 0.88rem;
+  font-size   : 1.03rem;
   flex-shrink     : 0;
 }
 
 .clabel {
   font-family    : var(--fc);
-  font-size      : 0.54rem;
+  font-size   : 0.97rem;
   letter-spacing : 0.16em;
   text-transform : uppercase;
   color          : var(--muted);
 }
 
 .cval {
-  font-size  : 0.82rem;
+  font-size   : 1.07rem;
   color      : var(--text);
   margin-top : 0.1rem;
 }
@@ -1413,14 +1413,14 @@ nav.scrolled {
 .ccta-big {
   font-family   : var(--fh);
   font-style    : italic;
-  font-size     : clamp(1.5rem, 3.5vw, 2.2rem);
+  font-size     : clamp(2rem, 4vw, 3rem);
   color         : var(--text);
   line-height   : 1.15;
   margin-bottom : 0.9rem;
 }
 
 .ccta p {
-  font-size     : 0.84rem;
+  font-size   : 1.12rem;
   color         : var(--muted2);
   line-height   : 1.8;
   margin-bottom : 1.8rem;
@@ -1449,7 +1449,7 @@ footer {
 .footer-inner {
   position  : relative;
   z-index   : 1;
-  max-width : 1200px;
+  max-width : 1280px;
   margin    : 0 auto;
   padding   : 9rem 2.5rem 0;
 }
@@ -1466,13 +1466,13 @@ footer {
 .footer-logo {
   font-family   : var(--fh);
   font-style    : italic;
-  font-size     : 2rem;
+  font-size   : 2.0rem;
   color         : var(--coral);
   margin-bottom : 0.8rem;
 }
 
 .footer-tagline {
-  font-size     : 0.82rem;
+  font-size   : 1.18rem;
   color         : var(--muted2);
   line-height   : 1.72;
   max-width     : 240px;
@@ -1484,7 +1484,7 @@ footer {
   align-items    : center;
   gap            : 0.45rem;
   font-family    : var(--fc);
-  font-size      : 0.56rem;
+  font-size   : 0.89rem;
   letter-spacing : 0.14em;
   text-transform : uppercase;
   color          : var(--coral);
@@ -1510,7 +1510,7 @@ footer {
 
 .footer-contacts a {
   font-family : var(--fc);
-  font-size   : 0.66rem;
+  font-size   : 1.07rem;
   color       : var(--muted2);
   text-decoration: none;
   transition  : color 0.2s;
@@ -1524,7 +1524,7 @@ footer {
 
 .fcol h4 {
   font-family    : var(--fc);
-  font-size      : 0.56rem;
+  font-size   : 0.89rem;
   letter-spacing : 0.2em;
   text-transform : uppercase;
   color          : var(--muted);
@@ -1549,7 +1549,7 @@ footer {
 }
 
 .fcol ul a {
-  font-size      : 0.82rem;
+  font-size   : 1.18rem;
   color          : var(--muted2);
   text-decoration: none;
   transition     : color 0.2s;
@@ -1561,7 +1561,7 @@ footer {
 .fcol ul a::before {
   content     : '→';
   font-family : var(--fc);
-  font-size   : 0.6rem;
+  font-size   : 0.93rem;
   color       : var(--muted);
   transition  : color 0.2s, transform 0.2s;
   display     : inline-block;
@@ -1581,13 +1581,13 @@ footer {
 
 .footer-copy {
   font-family : var(--fc);
-  font-size   : 0.58rem;
+  font-size   : 1.0rem;
   color       : var(--muted);
 }
 
 .footer-made {
   font-family : var(--fc);
-  font-size   : 0.58rem;
+  font-size   : 0.91rem;
   color       : var(--muted);
 }
 
@@ -1616,7 +1616,7 @@ footer {
   .sec-inner   { padding: 0 1.4rem; }
   .hinner      { padding: 6rem 1.4rem 180px; }
   .hero-bg-name{ font-size: 5rem; }
-  .pcard       { width: 320px; }
+  .pcard       { width: 90vw; }
   .proj-track-wrap { padding: 0 1.4rem 1.5rem; }
   .proj-header { padding: 0 1.4rem 2rem; }
   .drag-hint   { padding: 0 1.4rem; }
@@ -1630,4 +1630,170 @@ footer {
 @media (max-width: 400px) {
   .hname       { font-size: 2.4rem; }
   .stats-grid  { grid-template-columns: 1fr; }
+}
+
+/* ══════════════════════════════
+   ABOUT — PHOTO + BIO
+══════════════════════════════ */
+
+.about-top {
+  display        : grid;
+  grid-template-columns : 280px 1fr;
+  gap            : 3.5rem;
+  align-items    : start;
+  margin-bottom  : 3.5rem;
+}
+
+.about-photo-wrap {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  gap            : 1rem;
+  position       : relative;
+}
+
+.about-photo-frame {
+  position       : relative;
+  width          : 280px;
+  height         : 350px;
+}
+
+.about-photo-frame::before {
+  content        : '';
+  position       : absolute;
+  top            : -8px;
+  left           : -8px;
+  width          : 60px;
+  height         : 60px;
+  border-top     : 2px solid var(--coral);
+  border-left    : 2px solid var(--coral);
+  z-index        : 2;
+  pointer-events : none;
+}
+
+.about-photo-frame::after {
+  content        : '';
+  position       : absolute;
+  bottom         : -8px;
+  right          : -8px;
+  width          : 60px;
+  height         : 60px;
+  border-bottom  : 2px solid var(--coral);
+  border-right   : 2px solid var(--coral);
+  z-index        : 2;
+  pointer-events : none;
+}
+
+.about-photo {
+  width          : 100%;
+  height         : 100%;
+  object-fit     : cover;
+  object-position: center top;
+  display        : block;
+  filter         : grayscale(15%);
+  transition     : filter 0.4s ease;
+}
+
+.about-photo-frame:hover .about-photo {
+  filter         : grayscale(0%);
+}
+
+.about-photo-deco {
+  position       : absolute;
+  inset          : 0;
+  background     : linear-gradient(to bottom, transparent 60%, rgba(255, 71, 87, 0.12) 100%);
+  pointer-events : none;
+}
+
+.about-photo-label {
+  text-align     : center;
+  display        : flex;
+  flex-direction : column;
+  gap            : 0.3rem;
+}
+
+.about-name-tag {
+  font-family    : var(--fh);
+  font-style     : italic;
+  font-size   : 1.15rem;
+  color          : var(--text);
+  line-height    : 1.2;
+}
+
+.about-role-tag {
+  font-family    : var(--fc);
+  font-size   : 0.9rem;
+  letter-spacing : 0.14em;
+  text-transform : uppercase;
+  color          : var(--coral);
+}
+
+.about-bio {
+  display        : flex;
+  flex-direction : column;
+  gap            : 1rem;
+}
+
+.bio-text {
+  font-size   : 1.15rem;
+  line-height    : 1.9;
+  color          : var(--muted2);
+}
+
+.bio-personal {
+  font-style     : italic;
+  color          : rgba(122, 128, 152, 0.8);
+  border-left    : 2px solid rgba(255, 71, 87, 0.25);
+  padding-left   : 1rem;
+}
+
+.bio-ambition {
+  display        : flex;
+  gap            : 1rem;
+  align-items    : flex-start;
+  margin-top     : 0.5rem;
+  padding        : 1.2rem 1.4rem;
+  background     : rgba(255, 71, 87, 0.05);
+  border         : 1px solid rgba(255, 71, 87, 0.18);
+  position       : relative;
+  overflow       : hidden;
+}
+
+.bio-ambition::before {
+  content        : '';
+  position       : absolute;
+  top            : 0;
+  left           : 0;
+  width          : 3px;
+  height         : 100%;
+  background     : var(--coral);
+}
+
+.bio-ambition-icon {
+  font-family    : var(--fh);
+  font-style     : italic;
+  font-size   : 1.3rem;
+  color          : var(--coral);
+  flex-shrink    : 0;
+  line-height    : 1.5;
+}
+
+.bio-ambition p {
+  font-size   : 1.12rem;
+  line-height    : 1.85;
+  color          : var(--text);
+  font-style     : italic;
+}
+
+@media (max-width: 900px) {
+  .about-top { grid-template-columns: 1fr; gap: 2.5rem; }
+  .about-photo-wrap { flex-direction: row; align-items: flex-start; gap: 1.5rem; }
+  .about-photo-frame { width: 160px; height: 200px; flex-shrink: 0; }
+  .about-photo-label { align-items: flex-start; text-align: left; }
+}
+
+@media (max-width: 640px) {
+  .about-top { grid-template-columns: 1fr; }
+  .about-photo-wrap { flex-direction: column; align-items: center; }
+  .about-photo-frame { width: 200px; height: 250px; }
 }

@@ -448,6 +448,11 @@ const T = {
   fr: {
     hBadge  : 'Disponible — Open to work',
     hDesc   : "Développeur Full Stack passionné, du front-end au back-end, avec un intérêt croissant pour la Data et le BI. Basé à Antananarivo, Madagascar.",
+    photoRole: 'Full Stack Developer',
+    bioText  : "Je m'appelle Arinomena, développeur Full Stack basé à Antananarivo, Madagascar. La tech, je suis tombé dedans par curiosité et j'y suis resté par passion. Ce qui me motive vraiment, c'est de construire des choses qui servent — une API solide, un outil interne qui fait gagner des heures, une fonctionnalité que l'utilisateur n'attendait plus.",
+    bioText2 : "Java, Spring Boot, ReactJS, TypeScript — c'est ma boîte à outils. La rigueur et les tests, c'est mon état d'esprit.",
+    bioText3 : "Je joue au basketball régulièrement, et ce sport m'a probablement autant formé que mes études. Lire le jeu, faire confiance à l'équipe, rebondir après un raté — ça s'applique aussi bien sur un terrain que dans un sprint Agile. Je suis cinéphile, curieux de tout ce qui se raconte à l'écran. Et côté musique — à Madagascar, c'est une culture à part entière.",
+    bioAmbitionText: "Aujourd'hui je veux rejoindre une équipe en Europe — en priorité en France — pour travailler sur des projets qui ont du sens, progresser vite, et m'investir durablement. Pas juste trouver un poste. Trouver un endroit où contribuer vraiment. Un nouveau départ, ça se mérite et ça se provoque — et c'est exactement ce que je fais.",
     hBtn1   : 'Voir mes projets ↓',
     hBtn2   : 'Me contacter →',
     hScroll : 'Scroll pour explorer',
@@ -524,7 +529,12 @@ const T = {
   },
   en: {
     hBadge  : 'Available — Open to work',
-    hDesc   : 'Full Stack Developer with solid end-to-end engineering experience and a growing focus on Data Analytics and Business Intelligence. From Antananarivo, Madagascar.',
+    hDesc   : 'Full Stack Developer with solid end-to-end engineering experience and a growing focus on Data Analytics and Business Intelligence. Based in Antananarivo, Madagascar.',
+    photoRole: 'Full Stack Developer',
+    bioText  : "My name is Arinomena, a Full Stack Developer based in Antananarivo, Madagascar. I got into tech out of curiosity and stayed for the passion. What really drives me is building things that matter — a solid API, an internal tool that saves hours, a feature users stopped waiting for.",
+    bioText2 : "Java, Spring Boot, ReactJS, TypeScript — that's my toolbox. Rigour and testing — that's my mindset.",
+    bioText3 : "I play basketball regularly, and that sport has shaped me as much as my studies. Reading the game, trusting the team, bouncing back from a miss — it applies on the court just as well as in an Agile sprint. I'm a film enthusiast, curious about everything told on screen. And music in Madagascar is a culture in itself.",
+    bioAmbitionText: "Today I want to join a team in Europe — France first — to work on meaningful projects, grow fast, and commit long-term. Not just find a job. Find a place to truly contribute. Leaving Madagascar to build something elsewhere doesn't happen by accident. It's a decision. And it's exactly what I'm doing.",
     hBtn1   : 'View my projects ↓',
     hBtn2   : 'Get in touch →',
     hScroll : 'Scroll to explore',
@@ -612,6 +622,7 @@ function setLang(l) {
   // Simple text updates
   [
     'hBadge', 'hBtn1', 'hBtn2', 'hScroll',
+    'photoRole', 'bioText', 'bioText2', 'bioText3', 'bioAmbitionText',
     'aLbl', 'aTitle',
     'st1', 'st2', 'st3', 'st4',
     'skLbl', 'skTitle', 'catB', 'catF', 'catD', 'catAI', 'catT',
