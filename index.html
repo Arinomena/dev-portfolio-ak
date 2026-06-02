@@ -8,17 +8,17 @@
 <link rel="stylesheet" href="assets/Style/style.css"/>
 </head>
 <body>
-
+ 
 <!-- CURSOR -->
 <div class="cur-dot" id="curDot"></div>
 <div class="cur-ring" id="curRing"></div>
 <div class="cur-letter" id="curLetter">A</div>
-
+ 
 <div class="lang">
   <button class="lb on" id="bFr" onclick="setLang('fr')">FR</button>
   <button class="lb" id="bEn" onclick="setLang('en')">EN</button>
 </div>
-
+ 
 <nav id="navbar">
   <a class="logo" href="#">Ari.</a>
   <ul class="nlinks">
@@ -37,7 +37,7 @@
   <a href="#projects" onclick="toggleM()" id="ma4">Projets</a>
   <a href="#contact" onclick="toggleM()" id="ma5">Contact</a>
 </div>
-
+ 
 <!-- ══ HERO ══ -->
 <div class="hero">
   <canvas id="hero-canvas"></canvas>
@@ -50,7 +50,7 @@
         <span class="line2">RATSIRAHONANA</span>
       </h1>
       <div class="hsub" id="typEl">&nbsp;<span style="color:var(--coral);animation:cpulse 1s step-end infinite;">|</span></div>
-      <p class="hdesc" id="hDesc">Développeur Full Stack passionné, du front-end au back-end, avec un intérêt croissant pour la Data et le BI. Originaire de Antananarivo, Madagascar.</p>
+      <p class="hdesc" id="hDesc">Je construis des systèmes qui fonctionnent — pas juste du code qui tourne.</p>
       <div class="ctas">
         <a href="#projects" class="btn btn-p" id="hBtn1"><span>Voir mes projets ↓</span></a>
         <a href="mailto:nomena.ratsira@gmail.com" class="btn btn-s" id="hBtn2">Me contacter →</a>
@@ -68,7 +68,7 @@
   </div>
   <div class="scrollh"><div class="sline"></div><span id="hScroll">Scroll pour explorer</span></div>
 </div>
-
+ 
 <!-- ══ ABOUT ══ -->
 <div class="sec sec-alt" id="about">
 <div class="sec-inner">
@@ -77,8 +77,7 @@
     <span class="sec-num" aria-hidden="true">01</span>
     <h2 class="st" id="aTitle">Qui suis-je ?</h2>
   </div>
-
-  <!-- TOP ROW: photo + bio -->
+  <!-- Photo + Bio -->
   <div class="about-top reveal">
     <div class="about-photo-wrap">
       <div class="about-photo-frame">
@@ -93,19 +92,17 @@
     <div class="about-bio">
       <p class="bio-text" id="bioText">Je m'appelle Arinomena, développeur Full Stack basé à Antananarivo, Madagascar. La tech, je suis tombé dedans par curiosité et j'y suis resté par passion. Ce qui me motive vraiment, c'est de construire des choses qui servent — une API solide, un outil interne qui fait gagner des heures, une fonctionnalité que l'utilisateur n'attendait plus.</p>
       <p class="bio-text" id="bioText2">Java, Spring Boot, ReactJS, TypeScript — c'est ma boîte à outils. La rigueur et les tests, c'est mon état d'esprit.</p>
-      <p class="bio-text bio-personal" id="bioText3">Je joue au basketball régulièrement, et ce sport m'a probablement autant formé que mes études. Lire le jeu, faire confiance à l'équipe, rebondir après un raté — ça s'applique aussi bien sur un terrain que dans un sprint Agile. Je suis cinéphile, curieux de tout ce qui se raconte à l'écran. Et côté musique — à Madagascar, c'est une culture à part entière.</p>
-      <div class="bio-ambition" id="bioAmbition">
+      <p class="bio-text bio-personal" id="bioText3">Je joue au basketball régulièrement, et ce sport m'a probablement autant formé que mes études. Lire le jeu, faire confiance à l'équipe, rebondir après un raté — ça s'applique aussi bien sur un terrain que dans un sprint Agile. Je suis cinéphile, curieux de tout ce qui se raconte à l'écran. Et côté musique — à Madagascar, c'est une culture à part entière. On grandit avec des rythmes partout, des styles qui se mélangent sans se perdre.</p>
+      <div class="bio-ambition">
         <div class="bio-ambition-icon">→</div>
         <p id="bioAmbitionText">Aujourd'hui je veux rejoindre une équipe en Europe — en priorité en France — pour travailler sur des projets qui ont du sens, progresser vite, et m'investir durablement. Pas juste trouver un poste. Trouver un endroit où contribuer vraiment. Un nouveau départ, ça se mérite et ça se provoque — et c'est exactement ce que je fais.</p>
       </div>
     </div>
   </div>
-
-  <!-- BOTTOM ROW: stats + edu -->
+ 
+  <!-- Formation + Stats -->
   <div class="about-grid">
     <div class="reveal">
-      <p class="ap" id="aP1">Développeur Full Stack diplômé de l'<strong>IT University d'Antananarivo</strong> et de l'<strong>Université de Nice Côte d'Azur</strong>, actuellement en fin de Master 2. Je construis des applications web et hybrides du front-end au back-end, en visant performance, maintenabilité et qualité de code.</p>
-      <p class="ap" id="aP2">Curieux par nature, j'explore la <strong>Data Analyse et le Business Intelligence</strong> — une dimension que je compte approfondir. Je sais analyser un besoin, proposer des solutions techniques adaptées et travailler aussi bien en autonomie qu'en équipe.</p>
       <p class="ap" id="aP3">Langues : <strong>Français</strong> (natif) · <strong>Malgache</strong> (natif) · <strong>Anglais</strong> (professionnel)</p>
       <div class="edu-list">
         <div class="edu-i"><div class="edu-s">IT University × Université Nice Côte d'Azur</div><div class="edu-d" id="ed1">Master 2 MBDS</div><div class="edu-y">Sept 2024 – Jul 2026</div></div>
@@ -125,25 +122,25 @@
   </div>
 </div>
 </div>
-
+ 
 <!-- ══ SKILLS ══ -->
 <div class="sec" id="skills">
 <div class="sec-inner">
   <div class="sl" id="skLbl">02 — Stack</div>
   <div class="sec-title-wrap reveal">
     <span class="sec-num" aria-hidden="true">02</span>
-    <h2 class="st" id="skTitle">Ce que je maîtrise</h2>
+    <h2 class="st" id="skTitle">Mes outils, mes opinions</h2>
   </div>
   <div class="sk-grid reveal">
-    <div><div class="sk-cat-name" id="catB">Backend & API</div><div class="pills"><div class="pill">Spring Boot</div><div class="pill">Java</div><div class="pill">PHP / Laravel</div><div class="pill">CodeIgniter</div><div class="pill">REST API</div><div class="pill">Microservices</div><div class="pill">Python</div><div class="pill">C# / .NET</div><div class="pill">C / C++</div></div></div>
-    <div><div class="sk-cat-name" id="catF">Frontend & Mobile</div><div class="pills"><div class="pill">ReactJS</div><div class="pill">React Native</div><div class="pill">Kotlin Android</div><div class="pill">HTML5 / CSS3</div><div class="pill">JavaScript</div><div class="pill">Webflow</div><div class="pill">MVC</div></div></div>
-    <div><div class="sk-cat-name" id="catD">Bases de données</div><div class="pills"><div class="pill">MySQL</div><div class="pill">PostgreSQL</div><div class="pill">SQL Server</div><div class="pill">SQL avancé</div></div></div>
-    <div><div class="sk-cat-name" id="catAI">Data & IA</div><div class="pills"><div class="pill">Machine Learning</div><div class="pill">Big Data</div><div class="pill">Data Analyse</div><div class="pill">BI (en cours)</div></div></div>
-    <div><div class="sk-cat-name" id="catT">Outils & Cloud</div><div class="pills"><div class="pill">Git / GitHub</div><div class="pill">AWS</div><div class="pill">OCI</div><div class="pill">Azure</div><div class="pill">Docker</div><div class="pill">Blender</div><div class="pill">Photoshop</div></div></div>
+    <div><div class="sk-cat-name" id="catB">Backend & API</div><p class="sk-opinion" id="skOpB">Spring Boot est mon terrain de jeu. Puissant, stable, sécurisé — exactement comme j'aime travailler.</p><div class="pills"><div class="pill">Spring Boot</div><div class="pill">Java</div><div class="pill">PHP / Laravel</div><div class="pill">CodeIgniter</div><div class="pill">REST API</div><div class="pill">Microservices</div><div class="pill">Python</div><div class="pill">C# / .NET</div><div class="pill">C / C++</div></div></div>
+    <div><div class="sk-cat-name" id="catF">Frontend & Mobile</div><p class="sk-opinion" id="skOpF">React pour la fluidité et la réutilisabilité. Je ne construis pas des pages, je construis des composants.</p><div class="pills"><div class="pill">ReactJS</div><div class="pill">React Native</div><div class="pill">Kotlin Android</div><div class="pill">HTML5 / CSS3</div><div class="pill">JavaScript</div><div class="pill">Webflow</div><div class="pill">MVC</div></div></div>
+    <div><div class="sk-cat-name" id="catD">Bases de données</div><p class="sk-opinion" id="skOpD">MySQL et PostgreSQL. Simples en surface, redoutables en profondeur. Je n'en ai jamais eu besoin d'autre.</p><div class="pills"><div class="pill">MySQL</div><div class="pill">PostgreSQL</div><div class="pill">SQL Server</div><div class="pill">SQL avancé</div></div></div>
+    <div><div class="sk-cat-name" id="catAI">Data & IA</div><p class="sk-opinion" id="skOpAI">Les données racontent toujours quelque chose. Mon objectif : apprendre à les écouter mieux.</p><div class="pills"><div class="pill">Machine Learning</div><div class="pill">Big Data</div><div class="pill">Data Analyse</div><div class="pill">Business Intelligence</div></div></div>
+    <div><div class="sk-cat-name" id="catT">Outils & Cloud</div><p class="sk-opinion" id="skOpT">Un bon outil ne se remarque pas. Il disparaît dans le processus et laisse juste le résultat.</p><div class="pills"><div class="pill">Git / GitHub</div><div class="pill">AWS</div><div class="pill">OCI</div><div class="pill">Azure</div><div class="pill">Docker</div><div class="pill">Blender</div><div class="pill">Photoshop</div></div></div>
   </div>
 </div>
 </div>
-
+ 
 <!-- ══ EXPERIENCE ══ -->
 <div class="sec sec-alt" id="experience">
 <div class="sec-inner">
@@ -157,6 +154,7 @@
       <div class="ep" id="e1p">Mai 2025 – Présent</div>
       <div class="er"><span id="e1r">Développeur Full Stack</span><span class="cbadge" id="e1b">En poste</span></div>
       <div class="ec" id="e1c">ETS Fiarahantsika — Antananarivo, Madagascar</div>
+      <p class="exp-hook" id="e1hook">80% des processus de vente automatisés. Avant : synchroniser vente, achat et livraison à la main. Après : le système s'en charge.</p>
       <ul class="etasks" id="e1t">
         <li>Développement d'une plateforme SaaS hybride (Web + Mobile) de gestion d'un réseau de distribution de boissons</li>
         <li>Intégration d'un module de machine learning pour la prédiction des ventes et l'optimisation des stocks</li>
@@ -169,6 +167,7 @@
       <div class="ep" id="e2p">Oct 2023 – Déc 2023</div>
       <div class="er" id="e2r">Chargé de Projet — CDD</div>
       <div class="ec" id="e2c">BNI Madagascar — Département Projet Organisationnel</div>
+      <p class="exp-hook" id="e2hook">Le vrai défi n'était pas technique. C'était de gérer 15 tickets "urgents" simultanés, la pression des supérieurs — et garder son calme. Je l'ai fait.</p>
       <ul class="etasks" id="e2t">
         <li>Support et résolution d'anomalies du système d'information</li>
         <li>Tests, validation et mise en production des améliorations applicatives</li>
@@ -180,6 +179,7 @@
       <div class="ep" id="e3p">Sep 2022 – Jan 2023</div>
       <div class="er" id="e3r">Développeur Web — Stage de fin d'études</div>
       <div class="ec" id="e3c">JIRAMA — Compagnie nationale d'eau et d'électricité</div>
+      <p class="exp-hook" id="e3hook">Des rapports stockés sur Excel, rédigés à la main, circulant par email. J'ai tout centralisé en base de données — les données sont maintenant visibles en temps réel.</p>
       <ul class="etasks" id="e3t">
         <li>Conception et développement d'une application web de suivi des projets de redressement</li>
         <li>Mise en place d'un tableau de bord interactif et automatisation de processus internes</li>
@@ -189,7 +189,7 @@
   </div>
 </div>
 </div>
-
+ 
 <!-- ══ PROJECTS ══ -->
 <div class="sec" id="projects">
   <div class="proj-header reveal">
@@ -202,7 +202,7 @@
   </div>
   <div class="proj-track-wrap">
     <div class="proj-track">
-
+ 
       <!-- CARD 1 -->
       <div class="pcard" onclick="openPopup(0)">
         <div class="pcard-img">
@@ -214,12 +214,12 @@
         <div class="pcard-body">
           <div class="pcard-type" id="pt1">Plateforme SaaS — Web + Mobile + ML</div>
           <div class="pcard-name">Fiarahantsika</div>
-          <p class="pcard-desc" id="pd1s">Plateforme SaaS hybride pour la gestion d'un réseau de distribution de boissons, avec module ML intégré pour la prédiction des ventes.</p>
+          <p class="pcard-desc" id="pd1s">Un système complet là où il n'y avait que des tableurs. Vente, stock, livraison — automatisés à 80%. Construit seul, de l'architecture à la production.</p>
           <div class="pcard-techs"><span class="tc">Spring Boot</span><span class="tc">ReactJS</span><span class="tc">Kotlin</span><span class="tc">ML</span><span class="tc">Docker</span></div>
           <span class="pcard-cta" id="ctaCard1">Voir le détail →</span>
         </div>
       </div>
-
+ 
       <!-- CARD 2 -->
       <div class="pcard" onclick="openPopup(1)">
         <div class="pcard-img">
@@ -230,12 +230,12 @@
         <div class="pcard-body">
           <div class="pcard-type" id="pt2">Site web — Studio de musique</div>
           <div class="pcard-name">HMB Studio</div>
-          <p class="pcard-desc" id="pd2s">Site vitrine d'un studio de musique professionnel. Design immersif réalisé sur Webflow.</p>
+          <p class="pcard-desc" id="pd2s">Un studio de musique méritait un site à la hauteur de son ambition. Design immersif, identité forte, expérience fluide.</p>
           <div class="pcard-techs"><span class="tc">Webflow</span><span class="tc">UI/UX</span><span class="tc">Web Design</span></div>
           <span class="pcard-cta" id="ctaCard2">Voir le détail →</span>
         </div>
       </div>
-
+ 
       <!-- CARD 3 -->
       <div class="pcard" onclick="openPopup(2)">
         <div class="pcard-img">
@@ -246,12 +246,12 @@
         <div class="pcard-body">
           <div class="pcard-type" id="pt3">Application Web interne</div>
           <div class="pcard-name">JIRAMA</div>
-          <p class="pcard-desc" id="pd3s">Application de suivi des projets de redressement pour la compagnie nationale d'eau et d'électricité.</p>
+          <p class="pcard-desc" id="pd3s">Des rapports Excel éparpillés, remplacés par un tableau de bord en temps réel. Simple à dire. Pas si simple à construire.</p>
           <div class="pcard-techs"><span class="tc">Laravel</span><span class="tc">MySQL</span><span class="tc">JavaScript</span></div>
           <span class="pcard-cta" id="ctaCard3">Voir le détail →</span>
         </div>
       </div>
-
+ 
     </div>
   </div>
   <div class="drag-hint">
@@ -259,7 +259,7 @@
     <span id="dragHint">Glisse pour voir tous les projets</span>
   </div>
 </div>
-
+ 
 <!-- ══ POPUP ══ -->
 <div class="popup-overlay" id="popupOverlay" onclick="closeOnBg(event)">
   <div class="popup" id="popupBox">
@@ -289,7 +289,7 @@
     </div>
   </div>
 </div>
-
+ 
 <!-- ══ CONTACT ══ -->
 <div class="sec sec-alt" id="contact">
 <div class="sec-inner">
@@ -306,14 +306,14 @@
       <div class="citem" style="cursor:default;"><div class="cico">📍</div><div><div class="clabel" id="cloc">Localisation</div><div class="cval">Antananarivo, Madagascar</div></div></div>
     </div>
     <div class="ccta reveal">
-      <div class="ccta-big" id="ctaH">Un projet en tête ?</div>
-      <p id="ctaP">Je suis disponible pour des missions freelance, des collaborations ou des opportunités à plein temps. Développement Full Stack, intégration d'API, projet data — parlons-en.</p>
+      <div class="ccta-big" id="ctaH">Le désordre ralentit tout le monde.</div>
+      <p id="ctaP">L'organisation n'est pas une option, c'est un prérequis. Si vous cherchez quelqu'un qui construit vite, bien, et avec méthode — on devrait se parler.</p>
       <a href="mailto:nomena.ratsira@gmail.com" class="btn btn-p" id="ctaB"><span>Envoyer un message →</span></a>
     </div>
   </div>
 </div>
 </div>
-
+ 
 <!-- ══ FOOTER ══ -->
 <footer>
   <div class="footer-waves">
@@ -327,7 +327,7 @@
     <div class="footer-top">
       <div>
         <div class="footer-logo">Ari.</div>
-        <p class="footer-tagline" id="ftTagline">Développeur Full Stack & Data Enthusiast originaire de Antananarivo, Madagascar.</p>
+        <p class="footer-tagline" id="ftTagline">Je construis des systèmes qui fonctionnent. Basé à Antananarivo, disponible pour l'Europe.</p>
         <div class="footer-avail" id="ftBadge">Disponible pour de nouveaux projets</div>
         <div class="footer-contacts">
           <a href="mailto:nomena.ratsira@gmail.com"><span>✉</span> nomena.ratsira@gmail.com</a>
@@ -371,7 +371,7 @@
     </div>
   </div>
 </footer>
-
+ 
 <script src="assets/Style/main.js"></script>
 </body>
 </html>
